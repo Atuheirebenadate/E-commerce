@@ -28,11 +28,12 @@ a{
 p{
     color: #555;
 }
-container{
+.container{
     max-width: 25px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    
 }
 .row{
     display: flex;
@@ -49,6 +50,8 @@ container{
     padding: 200px,0;
 
 } 
+
+
 
 .col-2 h1{
     font-size: 30px;
@@ -86,8 +89,9 @@ background-color: #2c2727;
 .smallcontainer{
     max-width: 1080px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    display: flex;
 
 }
 .col-4{
